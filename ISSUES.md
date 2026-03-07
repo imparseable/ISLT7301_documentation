@@ -1,0 +1,7 @@
+# Issues identified and status
+- WordPress (version ?) rendering in browsers after initial installation
+  - need specific versions
+  - attempted fixes and outcomes
+- WordPress rendering as PHP code in the browser
+- MySQL 1410 error fix documentation
+- MySQL 1398 error fix documentation
