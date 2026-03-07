@@ -13,6 +13,9 @@ Please refer to the [ISSUES.md](https://github.com/imparseable/ISLT7301_document
 #### Complete tutorials
 Tutorials are detailed guides on how to do something, including checking settings, completing tasks, and solving problems. If you have a tutorial, it goes here. The example tutorial, written by Dr. Ridenour is in the [/tutorials/](https://github.com/imparseable/ISLT7301_documentation/tree/Spring2026/tutorials) directory named [SAMPLE.md](https://github.com/imparseable/ISLT7301_documentation/blob/Spring2026/tutorials/SAMPLE.md).
 
+#### How-to guides
+How-to guides are recipes for accomplishing a goal, such as troubleshooting or problem solving. A lot of our book has been how-to guides. In this repository, they are stored in [/how-to_guides/](https://github.com/imparseable/ISLT7301_documentation/tree/Spring2026/how-to_guides), and the corresponding [/how-to_guide/README.md](https://github.com/imparseable/ISLT7301_documentation/blob/Spring2026/how-to_guides/README.md) is about what they look like. Odds are, what you contribute will be a how-to guide.
+
 ## How to format your work
 As with all git pages, the default formatting is Markdown. I recommend the [Markdown Guilde's Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/) as a quick reference.
 
