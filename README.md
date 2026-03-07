@@ -7,6 +7,9 @@ Note that this is a *branch* from the **main** repository. It is meant for contr
 ## What to include in this branch
 This branch is for documenting our exploration of issues creating LAMP servers in Spring 2026. Open source code is live and changes, and between the time any issue has arisen and a solution has been found, the variables at play can be quite complex. What we will create is a **snapshot** of our experiences with different **versions** of Ubuntu, Apache2, MySLQ, and PHP as they interact for using WordPress, Omeka, and Koha.
 
+### Where to include it
+Please refer to the [ISSUES.md](https://github.com/imparseable/ISLT7301_documentation/blob/Spring2026/ISSUES.md) file to see if your issue is described, or to add an issue.
+
 ## How to format your work
 As with all git pages, the default formatting is Markdown. I recommend the [Markdown Guilde's Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/) as a quick reference.
 
