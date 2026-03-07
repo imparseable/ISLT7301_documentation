@@ -10,6 +10,9 @@ This branch is for documenting our exploration of issues creating LAMP servers i
 ### Where to include it
 Please refer to the [ISSUES.md](https://github.com/imparseable/ISLT7301_documentation/blob/Spring2026/ISSUES.md) file to see if your issue is described, or to add an issue.
 
+#### Complete tutorials
+Tutorials are detailed guides on how to do something, including checking settings, completing tasks, and solving problems. If you have a tutorial, it goes here. The example tutorial, written by Dr. Ridenour is in the [/tutorials/](https://github.com/imparseable/ISLT7301_documentation/tree/Spring2026/tutorials) directory named [SAMPLE.md](https://github.com/imparseable/ISLT7301_documentation/blob/Spring2026/tutorials/SAMPLE.md).
+
 ## How to format your work
 As with all git pages, the default formatting is Markdown. I recommend the [Markdown Guilde's Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/) as a quick reference.
 
