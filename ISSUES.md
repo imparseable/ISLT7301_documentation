@@ -1,4 +1,5 @@
 # Issues identified and status
+Table columns are divided by "|", so to add to a column, find the space between the correct two "|" on the correct row and enter your text there, or create a new row with 4 columns divided by "|".
 |Software Element|Issue|Documentor|Documentation Link|
 |----|----|----|----|
 |Wordpress|Version rendering in browsers after initial installation|  |  |
