@@ -5,3 +5,4 @@
 - WordPress rendering as PHP code in the browser
 - MySQL 1410 error fix documentation
 - MySQL 1398 error fix documentation
+- Omeka mod_rewrite not enabled (Gracie)
