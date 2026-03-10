@@ -5,6 +5,7 @@
 
 # Step 1:
 - **Stop** your VM. Do this by navigating and clicking the **3 dots** on the right-hand side of "Connect"
+<img width="470" height="140" alt="Screenshot Open 3 Dots" src="https://github.com/user-attachments/assets/b4272c51-bd16-4727-afdf-6b269924494f" />
 
 # Step 2:
 - Click **"Stop"**
@@ -26,7 +27,8 @@
 
 # Step 6:
 - Once your VM has started again, a **green checkmark** should appear under "Status." Click the **arrow** under "Connect" and next to "SSH." A drop-down menu will appear. Click **"Open in browser window"**
-<img width="975" height="479" alt="image" src="https://github.com/user-attachments/assets/8ee39c22-868a-4e06-94db-b1eb5f29ba90" />
+<img width="902" height="443" alt="Screenshot Open SSH " src="https://github.com/user-attachments/assets/158a422b-22b7-4658-a3cd-cba437b5e09c" />
+
 
 # Step 7:
 - Click **"Authorize"** and your terminal should open! **Good luck!**
