@@ -12,6 +12,7 @@ Table columns are divided by "|", so to add to a column, find the space between 
 |Omeka|setup not displaying in website|Melanie|  |
 |Ubuntu|Version Compatibility|Sydney|  |
 |VM SSH| SSH not connecting in-browser (restart VM)|Caroline|  |
+|Apache|500 Internal Server Error|Alexandra|  |
 
 
 # Initial Verbiage:
