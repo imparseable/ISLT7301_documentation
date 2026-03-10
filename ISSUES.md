@@ -6,3 +6,4 @@
 - MySQL 1410 error fix documentation
 - MySQL 1398 error fix documentation
 - Omeka mod_rewrite not enabled (Gracie)
+- Wordpress reverting back to an old IP address when I go to the admin login page (Kaelin)
