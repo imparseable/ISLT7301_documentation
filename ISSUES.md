@@ -1,6 +1,6 @@
 # Issues identified and status
 Table columns are divided by "|", so to add to a column, find the space between the correct two "|" on the correct row and enter your text there, or create a new row with 4 columns divided by "|".
-|Software Element|Issue|Documenter|Documentation Link|
+|Software Element|Issue|Documenters|Documentation Link|
 |----|----|----|----|
 |Wordpress|(Version?) rendering in browsers after initial installation|  |  |
 |Wordpress|rendering as PHP code in the browser|  |  |
@@ -12,7 +12,7 @@ Table columns are divided by "|", so to add to a column, find the space between 
 |Omeka|setup not displaying in website|Melanie|  |
 |Ubuntu|Version Compatibility|Sydney|  |
 |VM SSH| SSH not connecting in-browser (restart VM)|Caroline|  |
-|Apache|500 Internal Server Error|Alexandra|  |
+|Apache|500 Internal Server Error|Alexandra|[Apache 500 Internal Server Error](https://github.com/imparseable/ISLT7301_documentation/blob/Spring2026/how-to_guides/Apache500error.md)  |
 
 
 # Initial Verbiage:
