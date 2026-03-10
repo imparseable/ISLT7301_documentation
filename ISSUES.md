@@ -9,3 +9,4 @@
 - Wordpress reverting back to an old IP address when I go to the admin login page (Kaelin)
 - Ubuntu version compatibility (explaination?) (Sydney)
 - SSH in-browser not connecting- restart VM (Caroline)
+- Omeka setup not displaying in website (Melanie)
