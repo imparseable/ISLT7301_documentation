@@ -1,20 +1,22 @@
 # Issues identified and status
 Table columns are divided by "|", so to add to a column, find the space between the correct two "|" on the correct row and enter your text there, or create a new row with 4 columns divided by "|".
-|Software Element|Issue|Documenters|Documentation Link|
-|----|----|----|----|
-|Wordpress|(Version?) rendering in browsers after initial installation|  |  |
-|Wordpress|rendering as PHP code in the browser|  |  |
-|Wordpress|reverting back to an old IP address when I go to the admin login page|Kaelin|  |
-|WordPress|admin page fails to load|Justin|  |
-|MySQL|1410 error fix|  |  |
-|MySQL|1398 error|  |  |
-|Omeka|mod_rewrite not enabled|Gracie|  |
-|Omeka|setup not displaying in website|Melanie|  |
-|Ubuntu|Version Compatibility|Sydney|  |
-|VM SSH| SSH not connecting in-browser (restart VM)|Caroline|  |
-|Apache|500 Internal Server Error|Alexandra|[Apache 500 Internal Server Error](https://github.com/imparseable/ISLT7301_documentation/blob/Spring2026/how-to_guides/Apache500error.md)  |
-|OPAC explanation|Explanation page for how the basic OPAC page works|*available*|[OPAC explanation page](https://github.com/imparseable/ISLT7301_documentation/blob/Spring2026/explanations/basic_opac_workings_explanation.md)]|
-|Directory permissions|General AND specific directory permission changes (tutorial)|*available*|  |
+|Software Element|Issue|Suggested type|Documenters|Documentation Link|
+|----|----|----|----|----|
+|Wordpress|(Version?) rendering in browsers after initial installation|*how-to*|  |  |
+|Wordpress|rendering as PHP code in the browser|*how-to*|  |
+|Wordpress|reverting back to an old IP address when I go to the admin login page|*how-to*|Kaelin|  |
+|WordPress|admin page fails to load|*tutorial or how-to*|Justin|  |
+|MySQL|1410 error fix|*reference AND how-to*|  |  |
+|MySQL|1398 error|*reference AND how-to*|  |  |
+|Omeka|mod_rewrite not enabled|*how-to*|Gracie|  |
+|Omeka|setup not displaying in website|  |Melanie|  |
+|Ubuntu|Version Compatibility|*explanation*|Sydney|  |
+|VM SSH| SSH not connecting in-browser (restart VM)|*how-to*|Caroline|  |
+|Apache|500 Internal Server Error|  |Alexandra|[Apache 500 Internal Server Error](https://github.com/imparseable/ISLT7301_documentation/blob/Spring2026/how-to_guides/Apache500error.md)  |
+|OPAC explanation|Explanation page for how the basic OPAC page works|*explanation*|*available*|[OPAC explanation page](https://github.com/imparseable/ISLT7301_documentation/blob/Spring2026/explanations/basic_opac_workings_explanation.md)]|
+|Directory permissions|General AND specific directory permission changes|*tutorial*|*available*|  |
+|Omeka/MySQL|Edit database configuration|*tutorial*|*available*|  |
+|VM configuration|Initial VM configuration to avoid issues with PHP/Wordpress|*reference*|  |  |
 
 
 # Initial Verbiage:
