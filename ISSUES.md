@@ -17,6 +17,7 @@ Table columns are divided by "|", so to add to a column, find the space between 
 |Directory permissions|General AND specific directory permission changes|*tutorial*|*available*|  |
 |Omeka/MySQL|Edit database configuration|*tutorial*|*available*|  |
 |VM configuration|Initial VM configuration to avoid issues with PHP/Wordpress|*reference*|  |  |
+|VM Command Line Interface|Failure to Unzip Downloaded Files|troubleshooting how-to|Chester|  |
 
 
 # Initial Verbiage:
