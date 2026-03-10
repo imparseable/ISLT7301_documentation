@@ -14,6 +14,7 @@ Table columns are divided by "|", so to add to a column, find the space between 
 |VM SSH| SSH not connecting in-browser (restart VM)|Caroline|  |
 |Apache|500 Internal Server Error|Alexandra|[Apache 500 Internal Server Error](https://github.com/imparseable/ISLT7301_documentation/blob/Spring2026/how-to_guides/Apache500error.md)  |
 |OPAC explanation|Explanation page for how the basic OPAC page works|*available*|[OPAC explanation page](https://github.com/imparseable/ISLT7301_documentation/blob/Spring2026/explanations/basic_opac_workings_explanation.md)]|
+|Directory permissions|General AND specific directory permission changes (tutorial)|*available*|  |
 
 
 # Initial Verbiage:
