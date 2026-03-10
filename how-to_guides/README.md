@@ -24,7 +24,7 @@ How-to guides are about tasks, work, or problems; all have practical goals. Main
 - Practical usability
   - How-tos are not end-to-end complete tutorials, they start somewhere reasonable (such as where something does not work and what the symptoms are), and ends at a meaningful place
 - Sets of instructions
-  - These are xecutable instructions, such as outlining steps (or actions) to take that the reader must align to their work. Instructions and actions require flow to be considered, such as what the user needs to think about and when, and at what steps.
+  - These are executable instructions, such as outlining steps (or actions) to take that the reader must align to their work. Instructions and actions require flow to be considered, such as what the user needs to think about and when, and at what steps.
 - Descriptions of logical sequences
   - Sequential, meaning ordered in time, actions to take. These include commands as well as where the reader needs to engage in thinking the problem through; the guide addresses *how the user needs to think* AND *what the user needs to do**
 
