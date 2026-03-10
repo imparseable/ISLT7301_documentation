@@ -5,7 +5,6 @@
 
 # Step 1:
 - **Stop** your VM. Do this by navigating and clicking the **3 dots** on the right-hand side of "Connect"
-  <img width="734" height="219" alt="image" src="https://github.com/user-attachments/assets/eef5d5e4-f341-415c-9a77-f16ba3fe3e17" />
 
 # Step 2:
 - Click **"Stop"**
