@@ -1,8 +1,8 @@
 # Issues identified and status
 Table columns are divided by "|", so to add to a column, find the space between the correct two "|" on the correct row and enter your text there, or create a new row with 4 columns divided by "|".
-|Software Element|Issue|Documentor|Documentation Link|
+|Software Element|Issue|Documenter|Documentation Link|
 |----|----|----|----|
-|Wordpress|Version rendering in browsers after initial installation|  |  |
+|Wordpress|(Version?) rendering in browsers after initial installation|  |  |
 |Wordpress|rendering as PHP code in the browser|  |  |
 |Wordpress|reverting back to an old IP address when I go to the admin login page|Kaelin|  |
 |WordPress|admin page fails to load|Justin|  |
