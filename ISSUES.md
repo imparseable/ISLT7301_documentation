@@ -10,3 +10,4 @@
 - Ubuntu version compatibility (explaination?) (Sydney)
 - SSH in-browser not connecting- restart VM (Caroline)
 - Omeka setup not displaying in website (Melanie)
+- WordPress admin page fails to load (Justin)
