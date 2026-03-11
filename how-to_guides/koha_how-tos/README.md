@@ -1,4 +1,4 @@
-# Koha how-to guAfter creating a new virtual instance in Google Cloud, follow along with Burns to create Koha software. I have included some screenshots of what the result of the step. looks like 
+# Koha how-to guAfter creating a new virtual instance in Google Cloud, follow along with Burns to create Koha software. I have included some screenshots of what the result of the step looks like.
 
 As stated above, create a new virtual instance for Koha according to Dr. Ridenour's screenshots. The instructions are in Canvas under week eight's materials. Make sure your Ubuntu is set to 24.04 (instructions are on the ILS building helpdesk. I created my initial one with 22 and did not get very far.
 
