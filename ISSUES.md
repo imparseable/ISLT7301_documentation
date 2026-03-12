@@ -10,7 +10,7 @@ Table columns are divided by "|", so to add to a column, find the space between 
 |MySQL|1410 error fix|how-to*|Emily |  |
 |MySQL|1410 error fix|*reference|  |  |
 |MySQL|1398 error|*reference AND how-to*|  |  |
-|Omeka|mod_rewrite not enabled|*how-to*|Gracie|  |
+|Omeka|mod_rewrite not enabled|*how-to*|Gracie|[Omeka Mod_Rewrite Troubleshooting](https://github.com/imparseable/ISLT7301_documentation/blob/d8bfe971a763f83a42b85a27d7a3c2aa4f1a44eb/how-to_guides/troubleshooting_how-tos/omeka_mod_rewrite.md)  |
 |Omeka|setup not displaying in website|  |Melanie|  |
 |Ubuntu|Version Compatibility|*explanation*|Sydney|  |
 |VM SSH| SSH not connecting in-browser (restart VM)|*how-to*|Caroline|  |
