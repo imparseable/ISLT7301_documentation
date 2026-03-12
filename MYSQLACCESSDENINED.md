@@ -1,4 +1,4 @@
-# Mysql Access Denined for User Error Fix
+# Mysql Access Denied for User Error Fix
 
 While working on my basic opac I ran into a problem while working with MySQL was that my account would not open the PHP giving me this error.
 ![php fatal error](https://github.com/user-attachments/assets/3aa85376-7cfe-4508-bd25-7409d3c832c2)
