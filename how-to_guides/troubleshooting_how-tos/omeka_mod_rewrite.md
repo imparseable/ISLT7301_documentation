@@ -71,7 +71,7 @@ But you **KNOW** that you enabled your mod_rewrite?
 
       drop database [databasename];
 
-   c. Create a new database following the instructions from the link above (**Pay attention to the notes!**). As stated above, make sure to inclue the default character set and collate commands, or Omeka will not work. 
+   c. Create a new database following the instructions from the link above (**Pay attention to the notes!**). As stated above, make sure to include the default character set and collate commands, or Omeka will not work. 
 
    d. Don't forget to grant your Omeka user full privileges for your new database.
 
