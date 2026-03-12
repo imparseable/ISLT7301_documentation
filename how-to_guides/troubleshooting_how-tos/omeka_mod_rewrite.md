@@ -3,7 +3,7 @@
 
 Does your Omeka webpage look like this?
 
-![mod_rewrite not enabled](mod_rewrite_not_enabled.png)
+![mod_rewrite not enabled](https://forum.omeka.org/uploads/default/optimized/2X/9/972a6f2c462a8086cef6ceda5be499bc294b7b9d_2_690x379.jpeg)
 
 But you **KNOW** that you enabled your mod_rewrite? 
   (Just a reminder, to enable the rewrite module copy and paste the following code into your virtual machine. The VM will tell you if you already had the module enabled or not).
@@ -23,7 +23,7 @@ But you **KNOW** that you enabled your mod_rewrite?
      
   5. Check that the line underneath Rewrite Rules says RewriteEngine On and it is not preceded by a #.
 
-     ![rewrite engine on](RewriteEngineOn.png)
+     ![rewrite engine on](https://forum.omeka.org/uploads/default/original/2X/f/fc5c7d9f66ce8825c82d0e6f0e7484598a4ce911.jpeg)
 
   6. If not, rewrite the file so it matches the screenshot. Then save and exit the file.
   
