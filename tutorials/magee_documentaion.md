@@ -2,6 +2,7 @@ During the LAMP-based OPAC project, the cataloging page failed to load because t
 Since the page did not display a confirmation message or any visible output, it looked as though the form was not submitting data at all.
 In response, I re-entered several book records, and each attempt created a new row in the database.
 This produced multiple duplicate entries in MySQL and made it clear that the connection between the HTML form, the PHP script, and the database was broken somehow.
+
 To fix the issue, I returned to the PHP processing file and rebuilt it step by step.
 I rewrote the database connection code, reconstructed the logic that captured the form inputs, and recreated the statement so the script could reliably add new records.
 I also made sure the file was saved in the correct directory so the server could execute it.
