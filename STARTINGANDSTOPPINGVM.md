@@ -5,7 +5,7 @@
 
 ## Outline
 
-- In this how-to guide, you will learn how to start and stop your VM instance. After navigating to your Google Cloud VM Instances portal, you will see that the VM can be stopped and started from the "More actions" drop-down menu. After your instance has resumed, you should be able to connect to your SSH in-browser terminal. **See below for detailed steps:**
+- In this tutorial, you will learn how to start and stop your VM instance. After navigating to your Google Cloud VM Instances portal, you will see that the VM can be stopped and started from the "More actions" drop-down menu. After your instance has resumed, you should be able to connect to your SSH in-browser terminal. **See below for detailed steps:**
 
 ### Step 1: Stopping the VM
 - **Stop** your VM. Do this by navigating and clicking the **3 dots** on the right-hand side of "Connect"
