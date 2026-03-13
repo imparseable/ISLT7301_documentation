@@ -10,8 +10,9 @@ This Troubleshooting How-to provides a series of checks and potential fixes to t
 ## What does the issue look like? 
 This issue manifests in the user's browser when attempting to access their admin page in WordPress, typically found by using their WordPress page address with the addition of "/wp-admin" or "/wp-login.php". The admin login page will either load in an improper way or fail to load completely.
 
-The admin login page may look like this:
-![BadLogin](screenshot1)
+If it opens at all, the admin login page may look like this:
+
+![BadLogin](https://raw.githubusercontent.com/imparseable/ISLT7301_documentation/refs/heads/main/images/Screenshot1.png)
 
 And after entering your credentials, the following error will appear:
 
@@ -28,7 +29,7 @@ Use the [PHP Compatibility and WordPress Versions site](https://make.wordpress.o
 2. To check your WordPress version, first navigate to directory containing WordPress (example: `cd /var/www/html/wordpress`):
    - (with WP-CLI installed): Type `wp core version`
    - (without WP-CLI): Type `sudo nano wp-includes/version.php`. The version will be displayed after `$wp_version =`. (Use `CTRL+X` to exit Nano)
-If the compatibility guide indicates an issue, follow appropriate steps to download compatible version(s).
+3. If the compatibility guide indicates an issue, follow appropriate steps to download compatible version(s).
 You may also decide to update to the newest version of WordPress, which may resolve the issue. 
 
 ### Boost your site's memory
@@ -39,7 +40,7 @@ To increase the memory limit:
 3. Scroll down the config file until you see the line that says `/*Add any custom values between this line and the "stop editing" line. */`.
    - In the next row, add `define('WP_MEMORY_LIMIT', '256M');`
    - In the following row, add `define('WP_MAX_MEMORY_LIMIT', '512M');`
-![wp-config.php file](screenshot3)
+![wp-config.php file](https://raw.githubusercontent.com/imparseable/ISLT7301_documentation/refs/heads/main/images/Screenshot3.png)
 4. Use `Ctrl+O` to save the changes and `Ctrl+X` to exit the Nano editor.
 5. Since wp-config.php file changes take effect upon saving, a restart is not necessary.
  
@@ -50,7 +51,7 @@ To increase the memory limit of a server hosted in gCloud:
 2. Click on the name of your server, which appears as a hyperlink.
 3. Click the `Edit` button.
 4. Scroll down to the Machine configuration section. Here you can add CPUs and Memory to your server. For most simple applications, changing this to e2-medium should be sufficient.
-![Machine Configuration Screenshot](screenshot4)
+![Machine Configuration Screenshot](https://raw.githubusercontent.com/imparseable/ISLT7301_documentation/refs/heads/main/images/Screenshot4.png)
 5. Click "Save" when finished.
 6. Restart your server. 
 
@@ -61,8 +62,14 @@ It is possible that your URL is not correctly defined. You may define your WordP
 3. Scroll down the config file until you see the line that says `/*Add any custom values between this line and the "stop editing" line. */`.
    - In an open row, add `define('WP_HOME', 'http://' . $_SERVER['HTTP_HOST']);`
    - In the next row, add `define('WP_SITEURL', 'http://' . $_SERVER['HTTP_HOST']);`
-![wp-config.php file-defining URLs](screenshot5)
+![wp-config.php file-defining URLs](https://raw.githubusercontent.com/imparseable/ISLT7301_documentation/refs/heads/main/images/Screenshot5.png)
 4. Use `Ctrl+O` to save the changes and `Ctrl+X` to exit the Nano editor.
 5. Since wp-config.php file changes take effect upon saving, a restart is not necessary.
 
+## How will I know if it worked?
+
+![WordPress Login Screen](https://raw.githubusercontent.com/imparseable/ISLT7301_documentation/refs/heads/main/images/Screenshot6.png)
+
+If you see the fully loaded WordPress login screen, you have been successful in fixing this issue. 
+If you keep running into the same issue, your best bet may be to reinstall WordPress on your server and start again.
    
