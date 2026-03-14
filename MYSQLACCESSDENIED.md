@@ -1,6 +1,7 @@
 # Mysql Access Denied for User Error Fix
 
 While working on my basic opac I ran into a problem while working with MySQL. That my account would not open the PHP giving me this error.
+
 ![php fatal error](https://github.com/imparseable/ISLT7301_documentation/blob/3b9f990fefaf89054c36d2f4237e5e3552cb09c4/Blechle_Screenshot_phpissue_new2.jpg)
 
 This will be a tutorial on how we can solve this issue.
