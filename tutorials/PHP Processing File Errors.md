@@ -19,4 +19,5 @@ Resolution
 To restore the cataloging module, the PHP processing file was rebuilt from the ground up. The database connection code was rewritten to ensure the correct credentials and database name were used. The logic for capturing and sanitizing form inputs was reconstructed so that each field was properly referenced. The SQL insertion code was rewritten to match the database schema and prevet accidental duplication. The file was then moved into the correct directory so the form could locate it. Once these changes were made, a test submission confirmed that the form communicated with the database correctly.
 
 Outcome
+
 After the repairs, the cataloging form loaded without errors and successfully inserted new records into the database. The OPAC cataloging module functioned as intended. A test query retrieving author, title, and publication date information confirmed that the database was storing and returning records correctly. 
