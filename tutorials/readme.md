@@ -1,5 +1,5 @@
 # What is a Tutorial?
-Tutorials are practical guides that address (ideally one, or carefully bounded) achievable goals by following the steps presented. Tutorials are always learning-oriented, and can as a lesson in which the author is the teacher (which is hard! [read more at the Diátaxis page on Tutorials](https://diataxis.fr/tutorials/).
+Tutorials are practical guides that address (ideally one, or carefully bounded) achievable goals by following the steps presented. Tutorials are always learning-oriented, and can act as a lesson in which the author is the teacher (which is hard! [read more at the Diátaxis page on Tutorials](https://diataxis.fr/tutorials/).
 
 ## How to make a Tutorial that can be *learned* from
 Realize first that this may be an entirely new endeavour for you, and that's ok! Think about a tutorial as a mini-lesson that is:
