@@ -5,6 +5,7 @@ The basic OPAC works by creating a server using Linux, Apache, MySQL, and PHP (a
 - Apache is our web server.
 - MySQL is our relational database management system, where we can create and edit databases made up of tables.
 - PHP is our programming language, which allows us to access the data by translating our commands and tables into a readable HTML file.
+
 These elements together create a searchable catalog by housing our data and processing a system of retrieval.
 ## MySQL Databases and Tables
 MySQL allows us to create a database made up of tables, each with specifications for entries, including category titles (such as author, title, copyright), types of usable characters (integers, variable characters, year), character limits, and whether fields or columns can be left empty. After table creation, we can add, edit, and delete rows through MySQL, and these changes are passed on to our webpage.
