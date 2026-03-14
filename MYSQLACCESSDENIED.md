@@ -31,6 +31,6 @@ After this fix I was able to continue the process of getting my basic opac worki
 ![failed code line number](https://github.com/brblechle/islt73012026/blob/90501069cd071576c666caffa3899c2a26c0d321/Blechle_Screenshot_exmple42.jpg)
 
 - If you run into a problem always look through the whole error message to see what line of code is wrong. 
-Im aware that might sound obvious, however If you're getting frustrated with a error message ssometimes things get overlooked, so keep in mind what its telling you.
+Im aware that might sound obvious, however If you're getting frustrated with a error message sometimes things get overlooked, so keep in mind what its telling you.
 
 
