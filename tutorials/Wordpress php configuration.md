@@ -2,7 +2,7 @@
 While setting up Wordpress on my server, I ran into a problem that resulted in the following error message:
 
 <img width="1915" height="945" alt="Screenshot 2026-03-06 114549" src="https://github.com/user-attachments/assets/0946a8ee-18fc-45a3-8af4-75aeb419db56" />
-*error message*
+_error message_
 
 ## Troubleshooting
 First, I googled the problem and found a helpful post on wordpress.org:
@@ -16,14 +16,15 @@ This led me to check my wordpress config php file to see if there was an issue w
 At first, I deleted the extra spaces I saw in the database name and username. But I still got the same error from WordPress. I then returned to the Burns chapter on WordPress installation, specifically the section about the wp-config.php file, to make sure I understood what file should have. There, I re-read Burns' instructions for creating the database:
 
 <img width="1144" height="299" alt="Screenshot 2026-03-07 080707" src="https://github.com/user-attachments/assets/df557ffb-42b5-40e5-b6df-4019c930b764" />
-*Burns instructions*
+_Burns instructions_
+
+
 
 
 Here, I finally found the problem. I had misunderstood that in creating the database, we had already created a user named "wordpress". As I understood it, I thought we had established a place for a user to be added and that in the php file I was creating the user. After realizing my misunderstanding, I updated the php file again.
 
 <img width="929" height="164" alt="Screenshot 2026-03-07 081152" src="https://github.com/user-attachments/assets/ca5910f2-1ae8-4624-a8a9-dc23d468662c" />
-*updated php file*
-
+_updated php file_
 
 After updating the php file, I reloaded the WordPress page and it worked!
 
@@ -36,7 +37,6 @@ In the event that you come across the following error in WordPress, here are som
 
 <img width="1915" height="945" alt="Screenshot 2026-03-06 114549" src="https://github.com/user-attachments/assets/0946a8ee-18fc-45a3-8af4-75aeb419db56" />
 *error message*
-
 
 1) Check your wp-config.php file to ensure that the database name and username are both correct. They should match the name of the database and user that you created *exactly*.
 2) To verify the exact name of your database, log into mysql using the command `mysql -u opacuser -p` , from there, use the command `show databases;` and you will see a table with the names of all of your databases. Copy the name of your WordPress database *exactly* as its written into the php file.
