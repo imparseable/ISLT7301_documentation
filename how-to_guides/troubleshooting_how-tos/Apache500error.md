@@ -1,12 +1,6 @@
 # Apache 500 Error
 
-## Problem
-
-After creating a .htaccess file, your website shows a **500 Internal Server Error**. When visiting your web page to sign in, the login option doesn't appear becasue the error page loads instead.
-
-## Cause
-
-This can happen when there’s an error in the .htaccess configuration file syntax.
+This troubleshooting guide is for when you create a .htaccess file and your website shows a **500 Internal Server Error**. When visiting your web page to sign in, the login option doesn't appear becasue the error page loads instead. This can happen when there’s an error in the .htaccess configuration file syntax.
 
 ## Version Information
 
