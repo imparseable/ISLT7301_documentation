@@ -17,7 +17,7 @@ Table columns are divided by "|", so to add to a column, find the space between 
 |Apache|500 Internal Server Error|  |Alexandra|[Apache 500 Internal Server Error](https://github.com/imparseable/ISLT7301_documentation/blob/Spring2026/how-to_guides/Apache500error.md)  |
 |OPAC explanation|Explanation page for how the basic OPAC page works|*explanation*|Claire|[OPAC explanation page](https://github.com/imparseable/ISLT7301_documentation/blob/Spring2026/explanations/basic_opac_explanation.md)]|
 |Directory permissions|General AND specific directory permission changes|*tutorial*|*available*|  |
-|Omeka/MySQL|Edit database configuration|*tutorial*|Danielle|  |
+|Omeka/MySQL|Edit database configuration|*tutorial*|Danielle|[Edit Database Configuration in Omeka and MySQL](https://github.com/imparseable/ISLT7301_documentation/blob/68045ab43cd2fd0e3d3d95019fdf2565bdeb19e2/tutorials/Edit%20Database%20Configuration%20in%20Omeka%20and%20MySQL.md)  |
 |VM configuration|Initial VM configuration to avoid issues with PHP/Wordpress|*reference*|  |  |
 |VM Command Line Interface|Failure to Unzip Downloaded Files|troubleshooting how-to|Chester| [Failure to Unzip](https://github.com/imparseable/ISLT7301_documentation/blob/Spring2026/how-to_guides/troubleshooting_how-tos/failure_to_unzip.md) |
 
