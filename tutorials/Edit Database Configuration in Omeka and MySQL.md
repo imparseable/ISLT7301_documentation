@@ -32,13 +32,13 @@ Navigate to the text field that reads **[database]*.
 
 For your Omeka installation, these fields must be properly filled out. 
 
-**'host ='** is the location of your database. For this project, you should input 'localhost'.
+**'host ='** is the location of your database. For this project, you should input `localhost`.
 
-**'username'** and 'password' are specific to your MySQL database.
+**'username'** and **'password'** are specific to your MySQL database.
 
-**'dbname ='** is the database name for your Omeka installation. For this project, 'omeka' is fine.
+**'dbname ='** is the database name for your Omeka installation. For this project, `omeka` is fine.
 
-**'prefix ='** field is defaulted to 'omeka_' and does not need to be changed. 
+**'prefix ='** field is defaulted to `omeka_` and does not need to be changed. 
 
 **'charset'** and **'port'** also should not be changed as the default information is correct for this project.
 
