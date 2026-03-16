@@ -29,11 +29,11 @@ Click on the search bar at the top of the dashboard and type in “Create a snap
 
 Once at the Create a snapshot page, name your new snapshot something like “backup-data”.
 
-Under sourcedisk, click on the dropdown menu and select whichever VM is not working.
+Under source disk, click on the dropdown menu and select whichever VM is not working.
 
 Scroll down to the location options, make sure you click on regional and ensure it is the same location you had originally created your VM in.
 
-Then click on the blue button at the bottom that says create.
+Then click on the blue button at the bottom that says "Create".
 
 ## 3. Create a new VM instance
 
@@ -45,7 +45,7 @@ We want to make sure we click on E2 as our machine type. However, instead of the
 
 Next, click on the OS and storage tab.
 
-Once there, click on the button that says change.
+Once there, click on the button that says "Change".
 
 We want to make sure our operating system is Ubuntu, with the version being x86/64, amd64 jammy image. 
 
