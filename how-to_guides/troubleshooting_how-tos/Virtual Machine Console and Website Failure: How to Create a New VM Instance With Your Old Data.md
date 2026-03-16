@@ -1,4 +1,4 @@
-# Virtual Machine Console and Website Failure: How to Create a New Virtual Machine Instance With Your Old Data
+# Virtual Machine Console and Website Failure: How to Create a New VM Instance With Your Old Data
 
 Picture this…
 You are working hard on your virtual machine. You successfully download Apache, MySQL, PHP, Omeka, and Wordpress. You start editing your website to look pretty, but you decide to take a break and stop for the day.
@@ -7,11 +7,13 @@ The next day, you get on your virtual console, but instead of opening up like us
 
 Then when you try to access your website, you get the dreaded "This site can't be reached" error code.
 
-There are numerous reasons why this can happen. One potential reason for this failure is that the virtual machine does not have enough RAM to execute its functions anymore. Therefore, we need to create a new virtual machine instance.
+There are numerous reasons as to why this can happen. One potential reason for this failure is that the virtual machine does not have enough RAM to execute its functions anymore. Therefore, we need to create a new virtual machine instance.
 
 We do not have to start the whole process from scratch and download every single thing we did from the very beginning.
 
-Instead, we can create a snapshot of the current virtual machine that isn’t functioning. We can then create a new virtual machine instance using that snapshot and have all of our data transferred into a larger VM.
+Instead, we can create a snapshot of the current virtual machine that isn’t functioning. With that, we can create a new virtual machine instance using that snapshot and have all of our data transferred into a larger VM.
+
+The following steps will show you how to do so if you ever find yourself in this predicament:
 
 ## 1. Stop the malfunctioning VM instance
 
