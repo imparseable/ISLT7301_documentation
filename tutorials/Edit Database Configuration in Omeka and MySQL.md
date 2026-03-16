@@ -30,7 +30,8 @@ This will open our **database configuration file**, which we can now edit.
 
 Navigate to the text field that reads **[database]*. It should look like this:
 
-<img width="468" height="320" alt="Gorman_screenshot_databaseinfo" src="https://github.com/user-attachments/assets/77d058dd-6493-4c43-a294-726b8e6c78fb" />
+<img width="352" height="246" alt="Gorman_screenshot_database" src="https://github.com/user-attachments/assets/014ccb05-f272-4736-bd5f-cb607ab9a484" />
+
 
 ### Text fields
 
