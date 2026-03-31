@@ -1,6 +1,6 @@
 Overview
 
-During development the LAMP-based OPAC system, the cataloging form stopped functioning correctly and began producing multiple duplicate entries in the MySQL databse. The issue was traced to a missing or incomplete PHP processing file that handled form submissions. This document explains the problem, the system context, the steps taken to diagnose and repair the issue, and the final system status after the fix.
+During development the LAMP-based OPAC system, the cataloging form stopped functioning correctly and began producing multiple duplicate entries in the MySQL database. The issue was traced to a missing or incomplete PHP processing file that handled form submissions. This document explains the problem, the system context, the steps taken to diagnose and repair the issue, and the final system status after the fix.
 
 System Context
 
@@ -8,7 +8,7 @@ The OPAC cataloging module depends on a PHP processing file to receive form inpu
 
 Symptoms Observed
 
-- The form to submit a book title, author, and publishing date would appear. I would submit the information, and nothing would appear after submission.
+- The form to submit a book title, author, and publishing date would appear and I would submit the information, and nothing would appear after submission.
 - I replaced the processing file with different saved versions and repeated submissions. The number of duplicates and error behavior changed with each version, pointing to the processing file as the source.
 - I compared the form's action attribute to the directory structure and found that the path did not always point to the actual processing file.
 - These steps confirmed that the issue was reproducible and tied directly to how the form submission was being handled.
