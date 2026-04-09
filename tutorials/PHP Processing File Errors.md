@@ -7,6 +7,7 @@ System Context
 The OPAC cataloging module depends on a PHP processing file to receive form inputs, validate and sanitize the data, connect to the MySQL database, and insert new catalog records. Since this file acts as the link between the front-end form and the database, any errors in its logic or placement immediately affect how the system behaves. When the file is missing or incorrectly written, the form cannot communicate with the database as intended. 
 
 Symptoms Observed
+<img width="500" height="400" alt="Picture3" src="https://github.com/user-attachments/assets/d4668fed-a324-406b-961c-083d1d6a93d3" />
 
 - The form to submit a book title, author, and publishing date may appear normally, but after you submit the information, nothing appears to happen.
 - If you replace the processing file with different saved versions and repeat submissions, the number of duplicates or the error behavior may change with each version, pointing to the processing file as the source.
@@ -14,6 +15,8 @@ Symptoms Observed
 - These steps help confirm that the issue is reproducible and tied directly to how the form submission is being handled.
 
 Diagnosis
+![Screenshot_9-4-2026_172354_umsystem hosted panopto com](https://github.com/user-attachments/assets/0ef5945e-a235-4180-aeaf-12b18fe45540)
+
 
 - Compare the table structure to the SQL statement and check for missing columns.
 - Verify whether the processing file is stored in a different directory than the one referenced in the form's action. If so, the form may be calling an outdated or partial script.
