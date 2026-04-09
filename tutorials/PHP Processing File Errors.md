@@ -1,6 +1,6 @@
 Overview
 
-During development the LAMP-based OPAC system, the cataloging form stopped functioning correctly and began producing multiple duplicate entries in the MySQL database. The issue was traced to a missing or incomplete PHP processing file that handled form submissions. This document explains the problem, the system context, the steps taken to diagnose and repair the issue, and the final system status after the fix.
+During development of a LAMP-based OPAC system, the cataloging form may stop functioning correctly and begin producing multiple duplicate entries in the MySQL database. The issue is often traced to a missing or incomplete PHP processing file that handles form submissions. This document explains the problem, the system context, the steps you can take to diagnose and repair the issue, and the expected system status after the fix.
 
 System Context
 
@@ -8,25 +8,25 @@ The OPAC cataloging module depends on a PHP processing file to receive form inpu
 
 Symptoms Observed
 
-- The form to submit a book title, author, and publishing date would appear and I would submit the information, and nothing would appear after submission.
-- I replaced the processing file with different saved versions and repeated submissions. The number of duplicates and error behavior changed with each version, pointing to the processing file as the source.
-- I compared the form's action attribute to the directory structure and found that the path did not always point to the actual processing file.
-- These steps confirmed that the issue was reproducible and tied directly to how the form submission was being handled.
+- The form to submit a book title, author, and publishing date may appear normally, but after you submit the information, nothing appears to happen.
+- If you replace the processing file with different saved versions and repeat submissions, the number of duplicates or the error behavior may change with each version, pointing to the processing file as the source.
+- When you compare the form's action attribute to the directory structure, you may find that the path does not always point to the actual processing file.
+- These steps help confirm that the issue is reproducible and tied directly to how the form submission is being handled.
 
 Diagnosis
 
-- I compared the table structure to the SQL statement and confirmed several missing columns.
-- I found that the processing file was stored in a different directory than the one referenced in the form's action, so the form sometimes called an outdated or partial script.
-- These checks showed that the processing file was both mis-written and mis-located.
+- Compare the table structure to the SQL statement and check for missing columns.
+- Verify whether the processing file is stored in a different directory than the one referenced in the form's action. If so, the form may be calling an outdated or partial script.
+- These checks typically show that the processing file is both mis-written and mis-located.
 
 Resolution
 
-- I created a clean PHP script and saved it in the directory referenced by the form's action.
-- I added a correct mySQL connection block.
-- I rewrote the INSERT statement so that column names and order matched the cataloging table.
-- I updated the form's action attribute to point to the new script.
-- I submitted several new test records and checked the database after each submission. Everything was working correctly at this point.
+- Create a clean PHP script and save it in the directory referenced by the form's action.
+- Add a correct MySQL connection block.
+- Rewrite the INSERT statement so that the column names and order match the cataloging table.
+- Update the form's action attribute to point to the new script.
+- Submit several new test records and check the database after each submission to confirm that everything is working correctly.
 
 Outcome
 
-After the repairs, the cataloging form loaded without errors and successfully inserted new records into the database. The OPAC cataloging module functioned as intended. A test query retrieving author, title, and publication date information confirmed that the database was storing and returning records correctly. 
+After these repairs, the cataloging form should load without errors and successfully insert new records into the database. The OPAC cataloging module will function as intended. A test query retrieving author, title, and publication date information should confirm that the database is storing and returning records correctly. 
