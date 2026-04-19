@@ -1,0 +1,2 @@
+When setting up your SSH key users may encounter an error. One common source of this error is incorrectly typing user.signingkey as user.signinkey. 
+It is important to note it is user signing key. It is not user sign in key.
