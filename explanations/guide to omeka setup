@@ -1,0 +1,11 @@
+This is Sherilyn Jessop. This is where I am going to put a brief explanation on how I got omeka to run in my VM.
+
+First, as my computer is weird and will not go into the root directory by normal means, I ran sudo-i, cd /var/www/html, then mysql -u root. From there, I created a new user and password, created the database, granted all priveleges, listed my databases, then exited.
+Second, I left my root, then, as the URL for omeka was wrong in the textbook, I ran sudo wget https://github.com/omeka/Omeka/releases/download/v3.2.2/omeka-3.2.2.zip.Then, I unzipped the file (if you don't have unzip installed, run sudo apt install unzip.
+Third, I renamed my omeka-3.2.2.zip file to omeka.
+Fourth, I gave all ownership and permissions to www-data. See chapter about installing WordPress and Dr.R's video about the same topic as a guide.
+Fifth, I went back into my root, made sure I was changed into the omeka directory, then I opened m db.ini file via nano. I had to fill in the fields for the host, username, password, and database. For those fields, in order from left to right, you enter localhost, omeka, whatever password you created in step 1, and omeka.
+Sixth, I restarted apache2, then ran omeka in my browser. 
+Finally, I configured the site just like I did with WordPress, and the rest was history!
+
+I do not think that anyonw will see thise, but, if you do and you were struggling as much as I did, here you go! Just keep in mind that you may still need to look up several errors and oddeties that you encounter! Good luck!
