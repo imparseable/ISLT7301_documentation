@@ -38,7 +38,7 @@ If you made a cheat sheet you would like to include, please include it here!
 
 As with all git pages, the default formatting is Markdown. I recommend the [Markdown Guilde's Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/) as a quick reference.
 
-When including screenshots, please upload the screenshot to the [Fall 2026 Branch images directory[(https://github.com/imparseable/ISLT7301_documentation/tree/Fall2026/images). To include the inline image, use the format `![Alt text describing the image](https://linktoimage.ext "Title of the Image")`.
+When including screenshots, please upload the screenshot to the [Fall 2026 Branch images directory](https://github.com/imparseable/ISLT7301_documentation/tree/Fall2026/images). To include the inline image, use the format `![Alt text describing the image](https://linktoimage.ext "Title of the Image")`.
 
 ### When creating a page be sure to include
 
