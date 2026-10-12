@@ -23,7 +23,7 @@ Table columns are divided by "|", so to add to a column, find the space between 
 |Omeka/MySQL|Edit database configuration|*tutorial*|Danielle|[Edit Database Configuration in Omeka and MySQL] |
 |VM configuration|Initial VM configuration to avoid issues with PHP/Wordpress|*reference*|  |  |
 |VM Command Line Interface|Failure to Unzip Downloaded Files|troubleshooting how-to|Emily Fricke| [Failure to Unzip] |
-|GCloud|Disk full|*how-to*|Kaitlyn Saldana|[Resize Persistent Disk in GCloud](https://docs.cloud.google.com/compute/docs/disks/resize-persistent-disk)
+|GCloud|Disk full|*explanation and how-to*|Kaitlyn Saldana|[Resize Persistent Disk in GCloud](https://docs.cloud.google.com/compute/docs/disks/resize-persistent-disk)
 |Nano|Effective use|*reference/cheat sheet*|Owen Vandeloecht | |
 |grep| |*reference/cheat sheet*| | |
 |Wordpress 403 Forbidden Error| issue with Wordpress permissions and changing IP addresses | *reference/cheat sheet* | Elisabeth Iacono | [Wordpress Errors]
