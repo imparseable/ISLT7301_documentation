@@ -21,10 +21,11 @@ Table columns are divided by "|", so to add to a column, find the space between 
 |OPAC explanation|Explanation page for how the basic OPAC page works|*explanation*|Bethany Cutkomp|[OPAC explanation page]|
 |Directory permissions|General AND specific directory permission changes|*tutorial*|*available*|  |
 |Omeka/MySQL|Edit database configuration|*tutorial*|Danielle|[Edit Database Configuration in Omeka and MySQL] |
-|VM configuration|Initial VM configuration to avoid issues with PHP/Wordpress|*reference*|Ginny H|  |
+|VM configuration|Initial VM configuration to avoid issues with Koha|*reference*|Ginny H|  |
 |VM Command Line Interface|Failure to Unzip Downloaded Files|troubleshooting how-to|Emily Fricke| [Failure to Unzip] |
 |GCloud | | | | |
 |Nano|Effective use|*reference/cheat sheet*|Owen Vandeloecht | |
 |grep| |*reference/cheat sheet*| | |
 |Wordpress 403 Forbidden Error| issue with Wordpress permissions and changing IP addresses | *reference/cheat sheet* | Elisabeth Iacono | [Wordpress Errors]
-|GitHub/Nano|Pushing files to GitHub Repo| |Ginny H|
+|Koha|Setting up patron records in a new system| |Ginny H|
+|Koha|Adding a sample book to the catalog| |Ginny H|
