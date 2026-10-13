@@ -1,9 +1,15 @@
-Encountering Omeka Error with no Number. 
+#Encountering Omeka Error with no Number. 
 
-When attempting to install Omeka I ran into an error. When trying to open the browser version to complete set-up, I was given an error screen with no number. 
-I began walking back through the steps, assuming at first that I had messed up the user permissions. 
+When attempting to install Omeka I ran into an error. When trying to open the browser version to complete set-up, I was given an error screen with no number.
+
+I began walking back through the steps, assuming at first that I had messed up the user permissions.
+
 When checking those though, they were correct. 
+
 After walking back through the steps, I realized that when I made a copy of the db.ini file, I had edited the copy. 
+
 Omeka needed the edits in the db.ini file instead. 
+
 So I deleted my edited copy, made a new copy of the db.ini file as a backup, and then edited the db.ini file with the proper information. 
+
 Omeka booted right up in my browser after that edit. Definitely an ah-ha moment for me. 
