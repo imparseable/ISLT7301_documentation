@@ -9,7 +9,7 @@ Table columns are divided by "|", so to add to a column, find the space between 
 |Wordpress|reverting back to an old IP address when I go to the admin login page|*how-to*| |  |
 |Wordpress|Remove and reinstall Wordpress|Tutorial|Gracie Morris|[Remove and Reinstall Wordpress]|
 |WordPress|admin page fails to load|*tutorial or how-to*| |WordPress-Admin_Page-TimeoutError |
-|MySQL|1410 error fix|how-to*| |  |
+|MySQL|1410 error fix|how-to*| Maria Friedman | |
 |MySQL|1410 error fix|*reference|  |  |
 |MySQL|1398 error|*reference AND how-to*|  |  |
 |Omeka|mod_rewrite not enabled|*how-to*| Amber Spencer |[Omeka Mod_Rewrite Troubleshooting]  |
@@ -23,7 +23,7 @@ Table columns are divided by "|", so to add to a column, find the space between 
 |Omeka/MySQL|Edit database configuration|*tutorial*|Danielle|[Edit Database Configuration in Omeka and MySQL] |
 |VM configuration|Initial VM configuration to avoid issues with PHP/Wordpress|*reference*|Ginny H|  |
 |VM Command Line Interface|Failure to Unzip Downloaded Files|troubleshooting how-to|Emily Fricke| [Failure to Unzip] |
-|GCloud | | | | |
+|GCloud|Disk full|*explanation and how-to*|Kaitlyn Saldana|[Resize Persistent Disk in GCloud](https://docs.cloud.google.com/compute/docs/disks/resize-persistent-disk)
 |Nano|Effective use|*reference/cheat sheet*|Owen Vandeloecht | |
 |grep| |*reference/cheat sheet*| | |
 |Wordpress 403 Forbidden Error| issue with Wordpress permissions and changing IP addresses | *reference/cheat sheet* | Elisabeth Iacono | [Wordpress Errors]
