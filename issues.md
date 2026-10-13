@@ -27,4 +27,4 @@ Table columns are divided by "|", so to add to a column, find the space between 
 |Nano|Effective use|*reference/cheat sheet*|Owen Vandeloecht | |
 |grep| |*reference/cheat sheet*| | |
 |Wordpress 403 Forbidden Error| issue with Wordpress permissions and changing IP addresses | *reference/cheat sheet* | Elisabeth Iacono | [Wordpress Errors]
-
+|Omeka | Omeka was giving an error page with no error number | explanation | Allison Kelley | -|
