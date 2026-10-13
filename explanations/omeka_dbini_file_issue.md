@@ -1,4 +1,4 @@
-#Encountering Omeka Error with no Number. 
+# Encountering Omeka Error with no Number. 
 
 When attempting to install Omeka I ran into an error. When trying to open the browser version to complete set-up, I was given an error screen with no number.
 
