@@ -29,5 +29,5 @@ Table columns are divided by "|", so to add to a column, find the space between 
 |Wordpress 403 Forbidden Error| issue with Wordpress permissions and changing IP addresses | *reference/cheat sheet* | Elisabeth Iacono | [Wordpress Errors]
 |Omeka | Omeka was giving an error page with no error number | explanation | Allison Kelley | [omeka db.ini file issue](https://github.com/imparseable/ISLT7301_documentation/blob/aa59ea252bce9920476072097c859830e4c34ec5/explanations/omeka_dbini_file_issue)|
 |VM configuration|Initial VM configuration for Koha|*reference*|Ginny H |  |
-|Koha|Setting up a patron in a new system| |Ginny H |  |
-|Koha|Bare bones book cataloging| |Ginny H |  |
+|Koha|Setting up a patron in a new system|*tutorial*|Ginny H | |
+
