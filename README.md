@@ -1,6 +1,6 @@
 # ISLT7301_documentation
 
-Documentation for the Fall 2026 Semester of MU's ISLT 7301 class.
+Documentation for the Fall 2026 Semester of MU's ISLT 7301 class should be put in the Fall 2026 branch.
 
 ## Who should use this branch for commits.
 
