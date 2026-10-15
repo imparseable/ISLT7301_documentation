@@ -9,7 +9,7 @@ Table columns are divided by "|", so to add to a column, find the space between 
 |Wordpress|reverting back to an old IP address when I go to the admin login page|*how-to*| |  |
 |Wordpress|Remove and reinstall Wordpress|Tutorial|Gracie Morris|[Remove and Reinstall Wordpress]|
 |WordPress|admin page fails to load|*tutorial or how-to*| |WordPress-Admin_Page-TimeoutError |
-|MySQL|1410 error fix|how-to*| |  |
+|MySQL|1410 error fix|how-to*|Maria Angela Zolezzi|  |
 |MySQL|1410 error fix|*reference|  |  |
 |MySQL|1398 error|*reference AND how-to*|  |  |
 |Omeka|mod_rewrite not enabled|*how-to*| Amber Spencer |[Omeka Mod_Rewrite Troubleshooting]  |
