@@ -14,7 +14,7 @@ Table columns are divided by "|", so to add to a column, find the space between 
 |MySQL|1410 error fix|*reference|  |  |
 |MySQL|1398 error|*reference AND how-to*|  |  |
 |Omeka|mod_rewrite not enabled|*how-to*| Amber Spencer |[Omeka Mod_Rewrite Troubleshooting]  |
-|VM|Creating a New VM Instance for When VM console and website fails|  | |  |
+|VM|Creating a New VM Instance for When VM console and website fails| *how to* | Maria Friedman |  |
 |Ubuntu|Version compatibility issues in LAMP server ecosystem|*explanation*| |  |
 |Ubuntu|Process lock|*explanation/how-to*| | |
 |VM SSH| SSH not connecting in-browser (restart VM)|*how-to*| |  |
