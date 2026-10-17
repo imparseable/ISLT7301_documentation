@@ -17,12 +17,12 @@ Table columns are divided by "|", so to add to a column, find the space between 
 |VM|Creating a New VM Instance for When VM console and website fails| *how to* | Maria Friedman | [Create New VM Instance](https://github.com/imparseable/ISLT7301_documentation/blob/Fall2026/how-to/Create-a-New-VM-Instance.md)|
 |Ubuntu|Version compatibility issues in LAMP server ecosystem|*explanation*| |  |
 |Ubuntu|Process lock|*explanation/how-to*| | |
-|VM SSH| SSH not connecting in-browser (restart VM)|*how-to*| Sarah Offutt |  |
+|VM SSH| SSH not connecting in-browser (restart VM)|*how-to*|  |  |
 |Apache|500 Internal Server Error|  | |[Apache 500 Internal Server Error] |
 |OPAC explanation|Explanation page for how the basic OPAC page works|*explanation*|Bethany Cutkomp|[OPAC explanation page]|
 |Directory permissions|General AND specific directory permission changes|*tutorial*|*available*|  |
 |Omeka/MySQL|Edit database configuration|*tutorial*|Danielle|[Edit Database Configuration in Omeka and MySQL] |
-|VM configuration|Initial VM configuration to avoid issues with PHP/Wordpress|*reference*|  |  |
+|VM configuration|Initial VM configuration to avoid issues with PHP/Wordpress|*reference*| Sarah Offutt |  |
 |VM Command Line Interface|Failure to Unzip Downloaded Files|troubleshooting how-to|Emily Fricke| [Failure to Unzip] |
 |GCloud|Disk full|*explanation and how-to*|Kaitlyn Saldana|[Resize Persistent Disk in GCloud](https://docs.cloud.google.com/compute/docs/disks/resize-persistent-disk)
 |Nano|Effective use|*reference/cheat sheet*|Owen Vandeloecht | |
