@@ -1,0 +1,16 @@
+How to fix missing mylibrary.html page when building basic OPAC
+
+When met with a 404 site not found error when setting up your basic OPAC, ensure you did not create the mylibrary.html file in the wrong place which would prevent it from being useable by apache.
+
+First you'll have to find where the mylibrary.html file was created, this can be done with grep if you are unsure of the error.
+Here is a link to a reference on grep commands, which also conains some useful information on what grep can accomplish, and how it is used: https://linuxize.com/post/how-to-use-grep-command-to-search-files-in-linux/
+
+However you can also use nano, should you have it installed. Here is a reference point on finding files and using commands with nano: https://linuxize.com/post/how-to-use-nano-text-editor/
+
+If like me, you had created the file properly with nano, but then saved it and lost it in the wrong spot, after finding it with grep or nano, you'll then need to move it to the proper directory so it will work in tandem with the rest of your OPAC.
+
+This can be done by using: mv filename.txt /path/to/new/directory/
+
+After you have changed it's location, I would ensure it is in the right place by interrogating the directory with ls and ensuring you see it in the right place.
+
+Go back to your webpage, refresh, and it should work. If it doesn't, ensure you don't have typos in your file name that would prevent it from being read and used properly wioth apache and mysql.
