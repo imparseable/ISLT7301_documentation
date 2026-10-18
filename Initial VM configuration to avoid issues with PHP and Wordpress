@@ -1,0 +1,30 @@
+# Initial VM Configuration to avoid issues with PHP/Wordpress 
+
+1. Open Google Cloud
+2. Open the Navigation Menu to select "Compute Engine" then "VM Instances"
+3. Select the blue box labeled "Create Instance" at the top of the page.
+  1. Note: Reusing a previously made VM possibly will not have enough storage space. 
+
+## Machine Configuration
+3. Name the instance.
+  1. The name cannot contain any spaces. Instance titles can only include lowercase letters, numbers, and hyphens.
+4. Scroll down to select machine type.
+   1. Select E2 machine.
+   2. In the dropdown under machine type chose 'e2-small (2 vCPU, 1 core, 2 GB memory)'
+
+## OS & Storage
+5. Select 'Change'
+  1. In the operating system dropdown, select 'Ubuntu'
+  2. In the version dropdown, select 'Ubuntu 24.04 LTS' with the sublabel 'x86/64 amd64 noble image'
+  3. Change the size to 20 GB.
+
+## Networking
+6. Check the box to "Allow HTTP traffic".
+
+7. Hit "Create" at the bottom of the screen.
+
+8. Select the newly created VM and click "SSH" to run the instance.
+
+## In VM
+9. Ensure your your system is up to date with the "sudo apt update" and "sudo apt -y upgrade" commands.
+10. You can now install all necessary packages including Apache Web Server, PHP, MySQL, and Wordpress.
