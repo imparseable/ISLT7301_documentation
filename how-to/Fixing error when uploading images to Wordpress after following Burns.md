@@ -1,8 +1,8 @@
-##Introduction
+# Fixing an error when uploading images to Wordpress after following Burns's instructions
 
 If, when installing Wordpress, you followed the Burns instructions and didn't watch Dr. Ridenour's code-along video, you may have encountered issues with write permissions. For example, you may have gotten an error message when trying to upload an image when customizing your site. If this is the case, follow this step-by-step guide to check your read-write permissions and correct them if necessary.
 
-##Instructions
+## Instructions
 
 In your shell, navigate to the Wordpress directory.
 
