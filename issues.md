@@ -22,7 +22,7 @@ Table columns are divided by "|", so to add to a column, find the space between 
 |OPAC explanation|Explanation page for how the basic OPAC page works|*explanation*|Bethany Cutkomp|[OPAC explanation page](https://github.com/imparseable/ISLT7301_documentation/blob/6c9d6e70f7a75be2211fd9e111e7d035d8c9c81d/explanations/Basic%20OPAC%20Explanation.md)|
 |Directory permissions|General AND specific directory permission changes|*tutorial*|*available*|  |
 |Omeka/MySQL|Edit database configuration|*tutorial*|Danielle|[Edit Database Configuration in Omeka and MySQL] |
-|VM configuration|Initial VM configuration to avoid issues with PHP/Wordpress|*reference*| Sarah Offutt |  |
+|VM configuration|Initial VM configuration to avoid issues with PHP/Wordpress|*reference*| Sarah Offutt | [VM configuration for PHP and Wordpress](https://github.com/imparseable/ISLT7301_documentation/edit/Fall2026/VM%20configuration%20for%20PHP%20and%20Wordpress)|
 |VM Command Line Interface|Failure to Unzip Downloaded Files|troubleshooting how-to|Emily Fricke| [Failure to Unzip] |
 |GCloud|Disk full|*explanation and how-to*|Kaitlyn Saldana|[Resize Persistent Disk in GCloud](https://docs.cloud.google.com/compute/docs/disks/resize-persistent-disk)
 |Nano|Effective use|*reference/cheat sheet*|Owen Vandeloecht | |
