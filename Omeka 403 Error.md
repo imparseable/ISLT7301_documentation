@@ -19,6 +19,7 @@ The error above shows that my Omeka existed in the cd /var/www/omeka, NOT /var/w
 ### The Solution
 
 The solution to this issue was to make sure Omeka was pulling from the correct directory (/var/www/html/omeka).  
-First, the website was disabled with `sudo a2dissite omkea.conf`.
-Once disabled, I then re-enabled the default Apache settings with `sudo a2ensite 000-default.conf`.  
-Finally, running `systemctl restart apache2` updated these settings and got Omeka working!
+
+1. Disable website with `sudo a2dissite omeka.conf`.
+2. Re-enable the default Apache settings with `sudo a2ensite 000-default.conf`.  
+3. Run `systemctl restart apache2` to update these settings and get Omeka working!
