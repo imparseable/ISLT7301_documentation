@@ -22,4 +22,5 @@ The solution to this issue was to make sure Omeka was pulling from the correct d
 
 1. Disable website with `sudo a2dissite omeka.conf`.
 2. Re-enable the default Apache settings with `sudo a2ensite 000-default.conf`.  
-3. Run `systemctl restart apache2` to update these settings and get Omeka working!
+3. Run `systemctl restart apache2` to update these settings.
+4. Check Omeka with http://[ipaddress]/omeka to see if error has resolved.
