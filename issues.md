@@ -9,7 +9,7 @@ Table columns are divided by "|", so to add to a column, find the space between 
 |Wordpress|reverting back to an old IP address when I go to the admin login page|*how-to*| |  |
 |Wordpress|Remove and reinstall Wordpress|Tutorial|Gracie Morris|[Remove and Reinstall Wordpress]|
 |WordPress|admin page fails to load|*tutorial or how-to*| |WordPress-Admin_Page-TimeoutError |
-|MySQL|1819 error fix|*how-to*|Emily Comer| |
+|MySQL|1819 error fix|*how-to*|Emily Comer| [Fixing Password Strength within MySQL](https://github.com/imparseable/ISLT7301_documentation/blob/Fall2026/how-to/Fixing%20Password%20Strength%20within%20MySQL.md) |
 |MySQL|1410 error fix|how-to*| | |
 |MySQL|1410 error fix|*reference| Maria Friedman | [1410 error fix](https://github.com/imparseable/ISLT7301_documentation/blob/Fall2026/MySQL-Error-1410-Fix.md) |
 |MySQL|1398 error|*reference AND how-to*|  |  |
