@@ -57,7 +57,7 @@ Then, use the create dialog line from Method 1 with a modified password:
 
 `create user ‘wordpress’@’localhost’ identified by ‘NewValidPasswordForSuccess’;` 
 
-# End resolt
-Either method should yield the creation of your WordPress user as denoted by the QUERY, OK dialog line out within MySQL.
+# End result
+Either method should yield the creation of your WordPress user as denoted by the QUERY, OK dialog line output within MySQL.
 
 `Query, OK  0 rows affected  (0.01 sec)` 
