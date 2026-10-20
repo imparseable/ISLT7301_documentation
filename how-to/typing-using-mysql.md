@@ -23,7 +23,7 @@ The opener tells you what the client is waiting for. Look at the prompt before y
 
 ## Example of the problem
 
-The typed statement in this guide has three errors:
+The typed statement in this guide has two errors:
 
 - `tabl` instead of `table`
 - `carchar` instead of `varchar`
@@ -47,7 +47,7 @@ The client clears the buffer. The `mysql>` prompt shows again. The session stays
 
 3. Type the statement again, or paste it from your text editor.
 
-> **Note:** Type `\c` before you type the semicolon. After the semicolon, MySQL has already run the statement. `\c` then has nothing to cancel.
+> **Note:** Type `\c` before you type the semicolon. After the semicolon, MySQL has already run the statement. `\c` then has nothing to cancel. This is another mistake showcased in the first screenshot.
 
 ## Solution 2: Close an open quote, then cancel
 
@@ -61,20 +61,7 @@ Use this solution when the prompt is `'>`, `">`, or `` `> ``. In this state, MyS
 
 The `mysql>` prompt shows again.
 
-## Solution 3: Recall and edit a statement that already ran
-
-Use this solution when you typed the semicolon and MySQL shows an error. The `mysql>` prompt shows again, and the failed statement is in the command history.
-
-1. Press the Up Arrow key. The complete previous statement appears on one line.
-2. Use the Left Arrow key to move the cursor to the error.
-3. Correct the error.
-4. Press Enter.
-
-If MySQL shows a new error, repeat these steps. MySQL reports one error at a time, so a statement with three errors needs three corrections.
-
-> **Note:** The client does not let you move up to a previous line in a multi-line statement while you type it. The Up Arrow key works only after the statement has run or been cancelled.
-
-## Solution 4: Remove an object that you created with a typing error
+## Solution 3: Remove an object that you created with a typing error
 
 Use this solution when the statement ran without an error, but the name is wrong. For example, you typed `create table boosk` instead of `create table books`. MySQL created a table with the wrong name.
 
@@ -97,15 +84,15 @@ Use this solution when the statement ran without an error, but the name is wrong
 
 ## Prevent typing errors: write the statement in a file first
 
-Typing in the MySQL terminal gives you no editor features. You cannot move between lines, and you get no help from the editor. A text editor removes these limits.
+Typing in the MySQL terminal gives you no editor features. You cannot move between lines, and you get no help from the editor. While a text editor (e.g., NotePad or TextEdit) can provide some quality of life features, a more fully featured code editor, such as Visual Studio Code, provides tools for editing code, like MySQL.
 
-1. Open a text editor. This guide uses Visual Studio Code.
+1. Open a code or text editor editor. This guide uses Visual Studio Code.
 2. Create a new file.
 3. Save the file with the `.sql` extension, for example `test-mysql.sql`.
 
    ![The Save As window in Visual Studio Code with the file name test-mysql.sql.](typing-using-mysql-screenshots/vscode-save-as.png)
 
-   The `.sql` extension makes the editor apply SQL syntax highlighting. The editor shows SQL keywords in a different color. A misspelled keyword does not get the keyword color. Use this to find errors before you run the statement.
+   One of the advantages of a code editor is that using the `.sql` extension makes the editor apply SQL syntax highlighting. The editor highlights SQL keywords in a different color, and therefore a misspelled keyword does not get the keyword color. Use this to find errors before you run the statement in the terminal.
 
 4. Type the statement in the file.
 
