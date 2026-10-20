@@ -47,7 +47,7 @@ The client clears the buffer. The `mysql>` prompt shows again. The session stays
 
 3. Type the statement again, or paste it from your text editor.
 
-> **Note:** Type `\c` before you type the semicolon. After the semicolon, MySQL has already run the statement. `\c` then has nothing to cancel. This is another mistake showcased in the first screenshot.
+> **Note:** Type `\c` before you type the semicolon. After the semicolon, MySQL has already run the statement. `\c` then has nothing to cancel. This is a mistake made in the second screenshot.
 
 ## Solution 2: Close an open quote, then cancel
 
